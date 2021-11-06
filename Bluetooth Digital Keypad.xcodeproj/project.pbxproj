@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9518B9B92736340000B00E00 /* AnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B9B82736340000B00E00 /* AnalogJoystick.swift */; };
+		9518B9BB2736345400B00E00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518B9BA2736345400B00E00 /* Extensions.swift */; };
+		95280E4624731DEA00A33D5F /* JoyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95280E4524731DEA00A33D5F /* JoyController.swift */; };
+		95280E482473230500A33D5F /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95280E472473230500A33D5F /* Scene.swift */; };
+		954EA8542411485000E566F0 /* instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954EA8532411485000E566F0 /* instructions.swift */; };
 		9599CF9323F2EDC700E228B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CF9223F2EDC700E228B6 /* AppDelegate.swift */; };
 		9599CF9523F2EDC700E228B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CF9423F2EDC700E228B6 /* SceneDelegate.swift */; };
 		9599CF9723F2EDC700E228B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CF9623F2EDC700E228B6 /* ViewController.swift */; };
@@ -16,6 +21,10 @@
 		9599CFA223F2EDC900E228B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9599CFA023F2EDC900E228B6 /* LaunchScreen.storyboard */; };
 		9599CFAD23F2EDCA00E228B6 /* Bluetooth_Digital_KeypadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CFAC23F2EDCA00E228B6 /* Bluetooth_Digital_KeypadTests.swift */; };
 		9599CFB823F2EDCA00E228B6 /* Bluetooth_Digital_KeypadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CFB723F2EDCA00E228B6 /* Bluetooth_Digital_KeypadUITests.swift */; };
+		9599CFC623F2EF4300E228B6 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CFC523F2EF4300E228B6 /* BluetoothSerial.swift */; };
+		9599CFC823F2F07D00E228B6 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CFC723F2F07D00E228B6 /* ScanView.swift */; };
+		9599CFCC23FC3B0100E228B6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CFCB23FC3B0100E228B6 /* PageViewController.swift */; };
+		9599CFCE23FED08100E228B6 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599CFCD23FED08100E228B6 /* Console.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9599CF8F23F2EDC700E228B6 /* Bluetooth Digital Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth Digital Keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9518B9B82736340000B00E00 /* AnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogJoystick.swift; sourceTree = "<group>"; };
+		9518B9BA2736345400B00E00 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		95280E4524731DEA00A33D5F /* JoyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyController.swift; sourceTree = "<group>"; };
+		95280E472473230500A33D5F /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		954EA8532411485000E566F0 /* instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructions.swift; sourceTree = "<group>"; };
+		9599CF8F23F2EDC700E228B6 /* Digital Keypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital Keypad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9599CF9223F2EDC700E228B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9599CF9423F2EDC700E228B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9599CF9623F2EDC700E228B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +65,10 @@
 		9599CFB323F2EDCA00E228B6 /* Bluetooth Digital KeypadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth Digital KeypadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9599CFB723F2EDCA00E228B6 /* Bluetooth_Digital_KeypadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_Digital_KeypadUITests.swift; sourceTree = "<group>"; };
 		9599CFB923F2EDCA00E228B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9599CFC523F2EF4300E228B6 /* BluetoothSerial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
+		9599CFC723F2F07D00E228B6 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		9599CFCB23FC3B0100E228B6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9599CFCD23FED08100E228B6 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +109,7 @@
 		9599CF9023F2EDC700E228B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9599CF8F23F2EDC700E228B6 /* Bluetooth Digital Keypad.app */,
+				9599CF8F23F2EDC700E228B6 /* Digital Keypad.app */,
 				9599CFA823F2EDCA00E228B6 /* Bluetooth Digital KeypadTests.xctest */,
 				9599CFB323F2EDCA00E228B6 /* Bluetooth Digital KeypadUITests.xctest */,
 			);
@@ -102,8 +120,17 @@
 			isa = PBXGroup;
 			children = (
 				9599CF9223F2EDC700E228B6 /* AppDelegate.swift */,
+				9518B9B82736340000B00E00 /* AnalogJoystick.swift */,
+				95280E4524731DEA00A33D5F /* JoyController.swift */,
+				95280E472473230500A33D5F /* Scene.swift */,
 				9599CF9423F2EDC700E228B6 /* SceneDelegate.swift */,
+				9599CFCB23FC3B0100E228B6 /* PageViewController.swift */,
+				954EA8532411485000E566F0 /* instructions.swift */,
 				9599CF9623F2EDC700E228B6 /* ViewController.swift */,
+				9518B9BA2736345400B00E00 /* Extensions.swift */,
+				9599CFC723F2F07D00E228B6 /* ScanView.swift */,
+				9599CFCD23FED08100E228B6 /* Console.swift */,
+				9599CFC523F2EF4300E228B6 /* BluetoothSerial.swift */,
 				9599CF9823F2EDC700E228B6 /* Main.storyboard */,
 				9599CF9E23F2EDC900E228B6 /* Assets.xcassets */,
 				9599CFA023F2EDC900E228B6 /* LaunchScreen.storyboard */,
@@ -148,7 +175,7 @@
 			);
 			name = "Bluetooth Digital Keypad";
 			productName = "Bluetooth Digital Keypad";
-			productReference = 9599CF8F23F2EDC700E228B6 /* Bluetooth Digital Keypad.app */;
+			productReference = 9599CF8F23F2EDC700E228B6 /* Digital Keypad.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9599CFA723F2EDCA00E228B6 /* Bluetooth Digital KeypadTests */ = {
@@ -263,9 +290,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9599CF9723F2EDC700E228B6 /* ViewController.swift in Sources */,
+				9599CFCC23FC3B0100E228B6 /* PageViewController.swift in Sources */,
 				9599CF9D23F2EDC700E228B6 /* Bluetooth_Digital_Keypad.xcdatamodeld in Sources */,
+				9599CFCE23FED08100E228B6 /* Console.swift in Sources */,
 				9599CF9323F2EDC700E228B6 /* AppDelegate.swift in Sources */,
+				954EA8542411485000E566F0 /* instructions.swift in Sources */,
+				95280E4624731DEA00A33D5F /* JoyController.swift in Sources */,
+				95280E482473230500A33D5F /* Scene.swift in Sources */,
 				9599CF9523F2EDC700E228B6 /* SceneDelegate.swift in Sources */,
+				9518B9BB2736345400B00E00 /* Extensions.swift in Sources */,
+				9518B9B92736340000B00E00 /* AnalogJoystick.swift in Sources */,
+				9599CFC623F2EF4300E228B6 /* BluetoothSerial.swift in Sources */,
+				9599CFC823F2F07D00E228B6 /* ScanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,16 +475,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
 				INFOPLIST_FILE = "Bluetooth Digital Keypad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.Bluetooth-Digital-Keypad";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Digital Keypad";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,16 +496,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 3K6Q4C6RYZ;
 				INFOPLIST_FILE = "Bluetooth Digital Keypad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Wasch.Bluetooth-Digital-Keypad";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Digital Keypad";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
